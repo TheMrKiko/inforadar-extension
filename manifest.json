@@ -1,0 +1,19 @@
+{
+  "name": "InfoRadar",
+  "version": "0.0.0.2",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "description": "Agilizar a deteção de notícias não credíveis em língua portuguesa, recorrendo a recursos e estratégias de inteligência artificial.",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "permissions": [
+    "tabs"
+  ]
+}
